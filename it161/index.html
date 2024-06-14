@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/forms.css">
+ </head>
+ <body>
+     <header>
+     <h1 class="page-header">Austin J. Skootsky</h1>
+      <nav class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+          <a href="elements.html">HTML Elements</a>
+          <a href="stylin.html">Stylin' with CSS</a>
+          <a href="aia.html">AIA</a>
+          <a href="positioning.html">Positioning</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </nav>
+     </header>
+     
+   <main class="wrapper">
+    <picture class="profile">
+      <source media="(min-width: 1200px)" srcset="images/me800.jpg">
+      <source media="(min-width: 501px)" srcset="images/me500.jpg">
+      <img src="images/me320.jpg" alt="That's me!">
+    </picture>   
+    <h2 class="subheader">About Me</h2>
+    
+    <p>I am an aspiring software developer and game designer with an educational background in cultural studies and critical theory.</p>
+    <p>I am familiar with Python, Java, and C#, and I am currently learning HTML and CSS so I can do web development as well. I hope to eventually get work in the tech sector.</p>
+    <p>As a hobby game designer, I have designed board games and video games for about a decade, and I have experience working in Unity. I will be certified as a game designer by the University of Washington at the end of the Spring ’24 quarter.</p>
+    <p>In the past, I have studied continental philosophy, critical theory, and history. My experience with humanities and social science disciplines has given me a strong set of critical thinking skills that I carry with me into my development work.</p>
+    <p>Please explore this site and see my web development skills!</p>
+    <p>You can also find me on <a href="https://github.com/askootsky" target="_blank">GitHub</a>.</p>
+    <footer>
+      <p><small>&copy; 2024-<span id="this-year"></span> by 
+          Austin J. Skootsky, All Rights Reserved ~ 
+          <a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
+          <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
+     </p>
+    </footer>
+  </main>
+  <script src="js/main.js"></script>   
+ </body>
+</html>
